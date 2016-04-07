@@ -46,7 +46,6 @@
     [path addArcWithCenter:CGPointMake(size * 0.5, size * 0.5) radius:size * 0.5 startAngle:0 endAngle:M_PI * 2 clockwise:NO];
     [path closePath];
     layer.fillColor = color.CGColor;
-    layer.backgroundColor = nil;
     layer.path = path.CGPath;
     
     CGRect frame = CGRectMake(origin.x + raduis * (cos(angle) + 1),
