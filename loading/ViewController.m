@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SHActivityIndicatorAnimation.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CGSize size = CGSizeMake(50, 50);
+    
+    SHActivityIndicatorAnimation *animation = [[SHActivityIndicatorAnimation alloc] init];
+    [animation setupAnimationInLayer:self.view.layer size:size color:[UIColor redColor]];
 }
 
 - (void)didReceiveMemoryWarning {

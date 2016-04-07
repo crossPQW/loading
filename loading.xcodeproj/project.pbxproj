@@ -15,6 +15,8 @@
 		386BF32F1CB60890006CB738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386BF32D1CB60890006CB738 /* LaunchScreen.storyboard */; };
 		386BF33A1CB60891006CB738 /* loadingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 386BF3391CB60891006CB738 /* loadingTests.m */; };
 		386BF3451CB60891006CB738 /* loadingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 386BF3441CB60891006CB738 /* loadingUITests.m */; };
+		386BF3541CB608B3006CB738 /* SHActivityIndicatorAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 386BF3531CB608B3006CB738 /* SHActivityIndicatorAnimation.m */; };
+		386BF3571CB60D51006CB738 /* screenShot.gif in Resources */ = {isa = PBXBuildFile; fileRef = 386BF3561CB60D51006CB738 /* screenShot.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		386BF3401CB60891006CB738 /* loadingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = loadingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		386BF3441CB60891006CB738 /* loadingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = loadingUITests.m; sourceTree = "<group>"; };
 		386BF3461CB60891006CB738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386BF3521CB608B3006CB738 /* SHActivityIndicatorAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHActivityIndicatorAnimation.h; sourceTree = "<group>"; };
+		386BF3531CB608B3006CB738 /* SHActivityIndicatorAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHActivityIndicatorAnimation.m; sourceTree = "<group>"; };
+		386BF3561CB60D51006CB738 /* screenShot.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenShot.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,7 @@
 		386BF3131CB60890006CB738 = {
 			isa = PBXGroup;
 			children = (
+				386BF3551CB60D51006CB738 /* ScreenShot */,
 				386BF31E1CB60890006CB738 /* loading */,
 				386BF3381CB60891006CB738 /* loadingTests */,
 				386BF3431CB60891006CB738 /* loadingUITests */,
@@ -101,6 +107,8 @@
 		386BF31E1CB60890006CB738 /* loading */ = {
 			isa = PBXGroup;
 			children = (
+				386BF3521CB608B3006CB738 /* SHActivityIndicatorAnimation.h */,
+				386BF3531CB608B3006CB738 /* SHActivityIndicatorAnimation.m */,
 				386BF3221CB60890006CB738 /* AppDelegate.h */,
 				386BF3231CB60890006CB738 /* AppDelegate.m */,
 				386BF3251CB60890006CB738 /* ViewController.h */,
@@ -138,6 +146,14 @@
 				386BF3461CB60891006CB738 /* Info.plist */,
 			);
 			path = loadingUITests;
+			sourceTree = "<group>";
+		};
+		386BF3551CB60D51006CB738 /* ScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				386BF3561CB60D51006CB738 /* screenShot.gif */,
+			);
+			path = ScreenShot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +259,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386BF3571CB60D51006CB738 /* screenShot.gif in Resources */,
 				386BF32F1CB60890006CB738 /* LaunchScreen.storyboard in Resources */,
 				386BF32C1CB60890006CB738 /* Assets.xcassets in Resources */,
 				386BF32A1CB60890006CB738 /* Main.storyboard in Resources */,
@@ -273,6 +290,7 @@
 				386BF3271CB60890006CB738 /* ViewController.m in Sources */,
 				386BF3241CB60890006CB738 /* AppDelegate.m in Sources */,
 				386BF3211CB60890006CB738 /* main.m in Sources */,
+				386BF3541CB608B3006CB738 /* SHActivityIndicatorAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
